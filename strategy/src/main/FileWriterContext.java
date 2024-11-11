@@ -1,6 +1,7 @@
 package main;
 
 import main.strategia.FileWritingStrategy;
+import main.strategia.UserDto;
 
 import java.io.IOException;
 import java.util.List;

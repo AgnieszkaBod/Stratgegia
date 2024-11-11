@@ -1,4 +1,4 @@
-package main.test.Agniesi;
+package main.testAgniesi;
 
 public class FileJsonSave implements FileSave{
     @Override

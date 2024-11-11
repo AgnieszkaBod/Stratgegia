@@ -2,15 +2,16 @@ package main;
 
 import main.strategia.CsvFileWritingStrategy;
 import main.strategia.JsonFileWritingStrategy;
+import main.strategia.UserDto;
 import main.strategia.XmlFileWritingStrategy;
-import main.test.Agniesi.FileJsonSave;
-import main.test.Agniesi.FileSave;
-import main.test.Agniesi.FileTxtSave;
+import main.testAgniesi.FileJsonSave;
+import main.testAgniesi.FileSave;
+import main.testAgniesi.FileTxtSave;
 
 import java.io.IOException;
 import java.util.List;
 
-public class Klinet {
+public class Klient {
 
     public static void main(String[] args) {
         List<UserDto> users = List.of(

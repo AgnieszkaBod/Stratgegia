@@ -1,4 +1,4 @@
-package main;
+package main.strategia;
 
 public class UserDto {
     private final String firstName;
